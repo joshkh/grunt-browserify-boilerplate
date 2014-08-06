@@ -1,5 +1,7 @@
-Complex Viewer
+Grunt Browserify Boilerplate
 ======================
+
+Bundle a project using grunt, coffeescript/javascript, and browserify.
 
 Requirements
 ------------
