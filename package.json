@@ -1,0 +1,32 @@
+{
+  "name": "ComplexViewer",
+  "version": "0.1.0",
+  "description": "Visually represent complexes.",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-cli": ">=0.1.6",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-browserify": "*",
+    "grunt-bower-task": "git://github.com/creatorrr/grunt-bower-task.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/creatorrr/browserify-boilerplate.git"
+  },
+  "scripts": {
+    "start": "node ./node_modules/grunt-cli/bin/grunt",
+    "setup": "node ./node_modules/grunt-cli/bin/grunt setup",
+    "test": "node ./node_modules/grunt-cli/bin/grunt test"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "snapsvg": "git://github.com/sethvincent/Snap.svg#a34b8af69b"
+  }
+}
