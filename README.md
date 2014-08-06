@@ -2,6 +2,7 @@ Complex Viewer
 ======================
 
 Requirements
+------------
 1. NodeJS (sudo apt-get install nodejs)
 2. GruntJS (npm install -g grunt-cli)
 3. Bower (npm install -g bower)
